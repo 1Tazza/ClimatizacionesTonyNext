@@ -1,0 +1,35 @@
+.container{
+    padding: 1.5rem;
+}
+
+.footer{
+    border-top: 1px solid gray;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.a{
+    all: unset;
+    cursor: pointer;
+}
+
+.a p{
+    margin: 0;
+}
+
+.a :hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 550px) {
+
+    .container{
+        padding: 1rem;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}

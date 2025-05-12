@@ -1,0 +1,546 @@
+.bg{
+    background-Image: url("https://res.cloudinary.com/dapq4icmj/image/upload/v1742202344/Tony%20Clima/lvdebdyilo6shrfivmey.jpg"), linear-gradient(rgba(0, 0, 0, 0.635), rgba(0, 0, 0, 0.58));
+    
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0rem ;
+    
+    /* box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5); */
+    box-shadow: inset 0px -7px 10px rgba(0, 0, 0, 0.5), inset 0px 6px 10px rgba(0, 0, 0, 0.5);
+    
+     /* ////// */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.container{
+    /* max-width: 1252px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; */
+    
+    /* ////// */
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0rem 0rem;
+    /* padding: 4rem 0rem 2.1rem; */
+}
+
+.container p{
+    margin: 0
+}
+
+.sectionCont {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+.formSection{
+    display: flex ; 
+    justify-content: space-evenly; 
+    flex-direction: row; 
+}
+
+.line{
+    width: 100%;
+    height: 0.3px;
+    background-color: rgb(255, 255, 255);
+    margin: 12px 10px;
+}
+
+.sectionText{
+    font-size: 21px;
+    font-style: italic;
+}
+
+.text{
+    font-size: 22px;
+    font-weight: 600;
+    text-shadow: 0px 5px 3.7px #ffffff38;
+    margin: 0.3rem 0rem 0.6rem;
+
+    /* ////// */
+    text-align: left;  
+}
+
+/* ////// */
+.text br{
+    display: none;
+}
+
+/* ////// */
+.text p{
+    width: 310px;
+}
+
+/* ////// */
+.formDesk{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.sendCont{
+    display: flex;
+    margin: 0.5rem 0rem;
+}
+
+.selectCont{
+    display: flex ; 
+    
+    margin: 0.5rem 0rem;
+}
+
+.select{
+    display: flex;
+    justify-content: flex-start;
+    width: 15.4rem;
+}
+
+.button{
+    all: unset;
+    width: 9rem;
+    height: 2.2rem;
+    background-color: #2683FB;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.buttonCont{
+    display: flex;
+    justify-content: flex-start;
+    width: 15.4rem;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+.button:disabled{
+    opacity: 0.6;
+    cursor: unset;
+    transform: unset; 
+}
+
+.descuentos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0.3rem;
+}
+
+.descuentos input{
+    width: 10rem !important;
+    
+}
+
+
+.cuponCont{
+    cursor: pointer;
+}
+
+.promoCont{
+    display: flex
+;
+    align-items: center;
+    flex-direction: row;
+}
+.buttonPromo{
+    all: unset;
+    height: 2.2rem;
+    background-color: #200a2fe4;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 4.5rem;
+    font-weight: 500;
+    margin-left: 0.7rem;
+    transition: transform 0.2s ease-in-out;
+    
+}
+.buttonPromo:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+.contents{
+    display: contents;
+}
+.green{
+    color: #0dc97bb8;
+    font-weight: 600;
+}
+
+.red{
+    color: #8c1704de;
+    font-weight: 600;
+}
+
+.items{
+    width: 15.4rem;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 1.3rem 0rem;
+}
+
+.itemText{
+    display: flex;
+width: 92%;
+justify-content: center;
+font-size: 17px;
+}
+
+/* .mailText{
+    
+}
+ */
+.inputCont{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail{
+    width: 2.7rem; 
+    height: 1.8rem;
+}
+
+.location{
+    width: 1.8rem; 
+    height: 2.3rem; 
+    margin-left: 0.4rem;
+}
+
+.wppImg{
+    width: 2.7rem; 
+    height: 2.7rem;
+}
+
+.form{
+    display: flex;
+        flex-direction: column;
+}
+
+.form input{
+    all: unset;
+    background-color: #03030394;
+    height: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+    margin: 0.7rem 0rem;
+    width: 15rem;
+    border: white 2px solid;
+}
+
+.inputCont input::placeholder{
+    font-size: 15px;
+    color: #B8A9A9;
+}
+
+
+.select select {
+    all: unset;
+    background-color: #03030394;
+    border: white 2px solid;
+    font-weight: normal;
+    height: 2.1rem;
+    width: 13rem;
+
+    text-align: left;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 1rem;
+    background-image: url("./Arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    font-size: 15px;
+    color: #B8A9A9;
+    border-radius: 9px;
+
+}
+
+.select option{
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgb(29, 28, 28);
+}
+
+
+.textarea{
+    display: contents;
+}
+
+.textarea textarea {
+    border: none;
+    background-color: #03030394;
+    border: white 2px solid;
+    width: 15rem;
+    text-align: left;
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+    margin: 0.5rem 0rem 1rem;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    resize: vertical;
+}
+
+.form textarea::placeholder{
+    font-size: 15px;
+    color: #B8A9A9;
+}
+
+/* ////// */
+.deskItem{
+    display: flex;
+    flex-direction: row;
+    border: white 2px solid;
+    background-color: #03030394;
+    padding: 1rem 2rem;
+    margin-top: 1.3rem;
+}
+/* ////// */
+.callTime{
+    padding-left: 2rem;
+}
+
+.phoneImg{
+    width: 1.8rem;
+}
+
+.warning{
+    width: 250px; text-align: left;
+}
+
+
+.captchaMsj{
+    padding-bottom: 0.9rem;
+}
+
+.iframe iframe{
+    transform: scale(0.8);
+    margin-left: -1.9rem;
+}
+
+.iframe > div > div { width: unset !important;}
+
+@media (max-width: 1030px) {
+    .container{
+
+        max-width: 1252px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bg{
+        background-Image: url("https://res.cloudinary.com/dapq4icmj/image/upload/v1742202344/Tony%20Clima/lvdebdyilo6shrfivmey.jpg"), linear-gradient(rgba(0, 0, 0, 0.635), rgba(0, 0, 0, 0.58));
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: center;
+        padding: 1.7rem 0rem 3rem ;
+        /* box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5); */
+        box-shadow: inset 0px -7px 10px rgba(0, 0, 0, 0.5), inset 0px 6px 10px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .text{
+        padding: 0rem 2.5rem;
+        text-align: unset;  
+    }
+
+    .text br{
+        display: unset;
+    }
+
+    .text p{
+        width: 400px;
+    }
+
+    .descuentos{
+        
+        align-items: center;
+    }
+    
+    .descuentos input{
+        width: 9.1rem !important;
+        padding-left: 0.5rem !important;
+    }
+
+    
+
+    .line{
+        width: 100%;
+        height: 0.3px;
+        background-color: rgb(255, 255, 255);
+        margin: 12px 10px;
+    }
+    
+    .sectionText{
+        font-size: 21px;
+        font-style: italic;
+    }
+
+    .mail{
+        width: 2.2rem;
+        height: 1.5rem;
+    }
+    
+    .location{
+        width: 1.6rem;
+        height: 2rem;
+        margin-left: 0.3rem;
+    }
+    
+    .wppImg{
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0rem 1.7rem;
+
+    }
+    
+    .form input{
+        all: unset;
+        background-color: #03030394;
+        height: 2rem;
+        text-align: left;
+        padding-left: 1rem;
+        margin: 0.7rem 0rem;
+        width: 14rem;
+        border: white 2px solid;
+    }
+
+    .formDesk{
+        display: contents;
+    }
+
+    .inputCont{
+        align-items: center;
+    }
+
+    .inputCont input::placeholder{
+        font-size: 15px;
+        color: #B8A9A9;
+    }
+
+    .selectCont{
+        justify-content: center;
+    }
+
+    .select select {
+        all: unset;
+        background-color: #03030394;
+        border: white 2px solid;
+        font-weight: normal;
+        height: 2.1rem;
+        width: 12rem;
+
+        text-align: left;
+        align-items: center;
+        padding-left: 1rem;
+        font-size: 1rem;
+        background-image: url("./Arrow.svg");
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        font-size: 15px;
+        color: #B8A9A9;
+        border-radius: 9px;
+
+    }
+
+    .select option{
+        font-size: 15px;
+        color: #ffffff;
+        background-color: rgb(29, 28, 28);
+    }
+    
+    .textarea{
+        display: contents;
+    }
+    .textarea textarea {
+        border: none;
+        background-color: #03030394;
+        border: white 2px solid;
+        width: 14rem;
+        text-align: left;
+        padding-top: 0.8rem;
+        padding-left: 1rem;
+        margin: 0.5rem 0rem 1rem;
+        font-size: 1.1rem;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        resize: vertical;
+    }
+
+    .form textarea::placeholder{
+        font-size: 15px;
+        color: #B8A9A9;
+    }
+
+    .deskItemCont{
+        display: none;
+    }
+
+    .sendCont{
+        justify-content: center;
+    }
+
+    .warning{
+       text-align: center;
+    }
+
+    .captchaMsj{
+        text-align: left !important;
+    }
+
+    .iframe iframe{
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 545px) {
+    .container{
+        padding: 3.5rem 0rem 0rem;
+    }
+
+    .bg{
+        width: 90%;
+        border-radius: 9px;
+    }
+    
+    .formContainer{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .text p{
+        width: unset;
+    }
+
+    .captchaMsj{
+        padding-bottom: 0.7rem;
+    }
+}
