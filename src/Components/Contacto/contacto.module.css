@@ -203,6 +203,8 @@
 width: 92%;
 justify-content: center;
 font-size: 17px;
+flex-direction: column;
+align-items: flex-end;
 }
 
 /* .mailText{

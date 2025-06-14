@@ -195,7 +195,8 @@ export default function Contacto(){
             </div>
 
             <div className={c.itemText}>
-                <p>Mar07orly@gmail.com</p>
+                <p>climatizacionestony</p>
+                <p>@gmail.com</p>
             </div>
 
         </div>
