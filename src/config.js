@@ -1,6 +1,6 @@
 
 const config = {
-    couponCode: process.env.REACT_APP_CUPON || "TONYPROMO2025"
+    couponCode: process.env.REACT_APP_CUPON || "TONYPROMO2026"
   };
 
 export function isCuponAvailable() {
