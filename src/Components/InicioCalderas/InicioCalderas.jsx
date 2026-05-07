@@ -33,7 +33,7 @@ export default function InicioCalderas(){
 
      <div className={c.p}>
 
-        <p><span>ATENCIÓN INMEDIATA en CABA y Zona Sur.</span> <br /> Reparación, Mantenimiento e Instalación de <span>Calderas</span> para empresas y hogares. <br /> Servicio técnico experto en calderas de <span>todas las marcas</span>.</p>
+        <p><span>ATENCIÓN INMEDIATA en CABA y Zona Sur.</span> <br /> Reparación, Mantenimiento e Instalación de <span>Calderas</span> para empresas y hogares. <br /> Servicio técnico experto en calderas de <span>TODAS LAS MARCAS</span>.</p>
 
      </div>
 
