@@ -28,12 +28,12 @@ export default function InicioCalderas(){
     <div className={c.leftCont}>
 
      <div className={`${c.h1} ${c.transform}`}>
-        <h1>SERVICIO DE CALDERAS</h1>
+        <h1>SERVICE DE CALDERAS</h1>
      </div>
 
      <div className={c.p}>
 
-        <p><span>CLIMATIZACIONES TONY</span> se especializa en la Instalación, Reparación y Mantenimiento de <span>Calderas</span> para empresas, hogares y técnicos instaladores. Servicio técnico experto en calderas de <span>todas las marcas</span>.</p>
+        <p><span>ATENCIÓN INMEDIATA en CABA y Zona Sur.</span> <br /> Reparación, Mantenimiento e Instalación de <span>Calderas</span> para empresas y hogares. <br /> Servicio técnico experto en calderas de <span>todas las marcas</span>.</p>
 
      </div>
 
@@ -48,8 +48,7 @@ export default function InicioCalderas(){
             <span className={c.logo}>
                 <img src="/svg/Inicio/logo2.svg" alt="money icon" />
             </span>
-            <div className={c.text}>Ofertas
-Imperdibles</div>
+            <div className={c.text}>Presupuesto Sin Cargo</div>
         </div>
         <div className={`${c.item3} ${c.transformH}`}>
             <span className={c.logo}>
@@ -62,7 +61,7 @@ Imperdibles</div>
      <div className={c.buttonCont}>
      <a className={`${c.a}`}  onClick={handleOnClick} href="https://wa.link/4esc8w" target="_blank" >
      <div className={`${c.button} ${c.transform}`}>
-     <span>@</span> Contactanos 
+     <span>@</span> SOLICITAR SERVICE AHORA
      </div>
      </a>
      
