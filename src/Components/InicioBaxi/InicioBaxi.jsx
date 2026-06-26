@@ -36,9 +36,9 @@ export default function InicioBaxi(){
         <p><span>ATENCIÓN INMEDIATA en CABA y Zona Sur.</span> <br /> Reparación, Mantenimiento e Instalación de <span>Calderas BAXI</span> para empresas y hogares. <br /> Servicio técnico especializado en la <span>MARCA BAXI</span> las 24hs. <br /> Soluciona tu problema <span>AHORA</span></p>
 
         <div className={`${c.peisa24}`}>
-          <img className={`${c.peisa}`} src="https://res-console.cloudinary.com/dapq4icmj/thumbnails/v1/image/upload/v1782431154/Q2xpbWF0aXphY2lvbmVzL2xvZ28tdmVjdG9yLWJheGlfeG8zY3d6/as_is"   alt="Calderas Baxi" />
+          <img className={`${c.peisa}`} src="https://res.cloudinary.com/dapq4icmj/image/upload/v1782434082/Climatizaciones/logo-vector-baxi_k5uozt.jpg"   alt="Calderas Baxi" />
 
-          <img className={`${c.horario}`} src="https://res-console.cloudinary.com/dapq4icmj/thumbnails/v1/image/upload/v1782428567/Q2xpbWF0aXphY2lvbmVzLzI0aHJfZGRleWM3/drilldown" alt="24hs" />
+          <img className={`${c.horario}`} src="https://res.cloudinary.com/dapq4icmj/image/upload/v1782434083/Climatizaciones/24hr_uc2mlz.png" alt="24hs" />
         </div>
      </div>
 
