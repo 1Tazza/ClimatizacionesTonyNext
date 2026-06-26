@@ -42,9 +42,9 @@ export default function Links(){
 
             <img src="/svg/links/line.svg" alt="" />
 
-            <p style={{marginTop:"1.5rem"}}>Lunes a Sábados</p>
+            <p style={{marginTop:"1.5rem"}}>Lunes a Domingos</p>
 
-            <p>08:00 - 21:00</p>
+            <p>ATENCIÓN LAS 24HS</p>
           <div className={c.contactar}>
           <div className={`${c.chooseTitle} ${c.transform} `}>
           <a href="https://wa.link/4esc8w" style={{all: "unset"}} target="_blank" rel="noreferrer">Contactar</a>
