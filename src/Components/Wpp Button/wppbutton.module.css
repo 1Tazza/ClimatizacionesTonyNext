@@ -17,7 +17,7 @@
 }
 
 .img{
-    width: 4rem;
+    width: 4.5rem;
 }
 
 
@@ -35,10 +35,6 @@
     right: 50px;
     }
 
-
-    .img{
-        width: 3.7rem;
-    }
 }
 
 @media (max-width: 730px) {
@@ -47,10 +43,6 @@
     right: 20px;
     }
 
-
-    .img{
-        width: 3.5rem;
-    }
 }
 
 
@@ -60,8 +52,4 @@
     right: 20px;
     }
 
-
-    .img{
-        width: 3.2rem;
-    }
 }

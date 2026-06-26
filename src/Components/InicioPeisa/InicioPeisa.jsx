@@ -38,7 +38,7 @@ export default function InicioPeisa(){
         <div className={`${c.peisa24}`}>
           <img className={`${c.peisa}`} src="https://res.cloudinary.com/dapq4icmj/image/upload/v1729848408/Climatizaciones/zgm5clxa8rs1girqv9sn.webp"   alt="Calderas Peisa" />
 
-          <img className={`${c.horario}`} src="https://res-console.cloudinary.com/dapq4icmj/thumbnails/v1/image/upload/v1782428567/Q2xpbWF0aXphY2lvbmVzLzI0aHJfZGRleWM3/preview" alt="24hs" />
+          <img className={`${c.horario}`} src="https://res.cloudinary.com/dapq4icmj/image/upload/v1782434083/Climatizaciones/24hr_uc2mlz.png" alt="24hs" />
         </div>
      </div>
 
